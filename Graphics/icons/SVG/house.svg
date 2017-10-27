@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="89px" viewBox="0 0 110 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Graphics/house</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Graphics" transform="translate(-708.000000, -170.000000)" fill="#01A3FF">
+            <g id="Graphics/house" transform="translate(708.000000, 170.000000)">
+                <g id="Group" transform="translate(16.000000, 8.000000)">
+                    <polygon id="Shape" fill-rule="nonzero" points="0 34.0540541 9.75308642 34.0540541 9.75308642 72 31.2098765 72 31.2098765 45.7297297 47.7901235 45.7297297 47.7901235 72 69.2469136 72 69.2469136 34.0540541 79 34.0540541 39.5975309 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

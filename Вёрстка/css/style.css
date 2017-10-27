@@ -1,0 +1,95 @@
+﻿@font-face {
+    font-family: "AvenirNextCyr-Bold";
+	src: url("../fonts/AvenirNextCyr-Bold.eot");
+	src: url("../fonts/AvenirNextCyr-Bold?#iefix")format("embedded-opentype"),
+	url("../fonts/AvenirNextCyr-Bold.woff") format("woff"),
+	url("../fonts/AvenirNextCyr-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}	
+@font-face {
+		font-family: "AvenirNextCyr-Demi";
+		src: url("../fonts/AvenirNextCyr-Demi.eot");
+		src: url("../fonts/AvenirNextCyr-Demi.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/AvenirNextCyr-Demi.woff") format("woff"),
+		url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+@font-face {
+		font-family: "AvenirNextCyr-Medium";
+		src: url("../fonts/AvenirNextCyr-Medium.eot");
+		src: url("../fonts/AvenirNextCyr-Medium?#iefix")format("embedded-opentype"),
+		url("../fonts/AvenirNextCyr-Medium.woff") format("woff"),
+		url("../fonts/AvenirNextCyr-Medium.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+@font-face {
+		font-family: "AvenirNextCyr-Regular";
+		src: url("../fonts/AvenirNextCyr-Regular.eot");
+		src: url("../fonts/AvenirNextCyr-Regular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/AvenirNextCyr-Regular.woff") format("woff"),
+		url("../fonts/AvenirNextCyr-Regular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+body {
+	
+}
+.main-top {
+	background: url('../img/photos/bgHero@2x.jpg') no-repeat;
+}
+.main-top:before {
+	content: "";
+	position:absolute;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+.main-header {
+	height: 85px;
+}
+.logo-w {
+	width: 105px;
+	height: 35px;
+	background: url('../img/icons/png/logoW.png') no-repeat;
+	vertical-align: middle;
+}
+.main-header ul {
+	padding-left: 0;
+}
+.main-header li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 23px;
+}
+.main-header li:last-child {
+	margin-right: 0;
+}
+.main-header li a {
+	color: #fff;
+	font-family: "AvenirNextCyr-Regular";
+	font-size: 18px;
+}
+.phone-col {
+	font-family: AvenirNextCyr-Bold;
+	font-size: 18px;
+	color: #fff;
+}
+.viber, .whatsapp {
+	font-size: 10px;
+	float: left;
+	font-family: "AvenirNextCyr-Medium";
+	position: relative;
+	left: 69px;
+}
+.viber:before {
+	content:"●";
+	color: #b567ff;
+}
+.whatsapp:before {
+	content:"●";
+	color: #22d77e;
+	margin-left: 5px;
+	
+}

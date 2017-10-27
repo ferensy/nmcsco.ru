@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>done</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Graphics" transform="translate(-722.000000, -293.000000)">
+            <g id="Graphics/done" transform="translate(722.000000, 293.000000)">
+                <g id="done">
+                    <circle id="Oval" stroke="#01A3FF" stroke-width="3" cx="100.5" cy="100.5" r="99"></circle>
+                    <g id="Group" transform="translate(104.932504, 93.468037) rotate(-45.000000) translate(-104.932504, -93.468037) translate(52.432504, 65.968037)" fill="#01A3FF">
+                        <rect id="Rectangle-5" x="0.171572875" y="52.8284271" width="104" height="2"></rect>
+                        <rect id="Rectangle-5" transform="translate(1.171573, 27.616410) rotate(-270.000000) translate(-1.171573, -27.616410) " x="-25.8284271" y="26.6164098" width="54" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
