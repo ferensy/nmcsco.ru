@@ -35,10 +35,13 @@
 		font-weight: normal;
 }
 body {
-	
+	font-family: "AvenirNextCyr-Medium";
+	color: #424242;
 }
-.main-top {
+.main-block1 {
 	background: url('../img/photos/bgHero@2x.jpg') no-repeat;
+	padding-bottom: 158px;
+	margin-bottom: 50px;
 }
 .main-top:before {
 	content: "";
@@ -47,7 +50,8 @@ body {
 	background: rgba(0,0,0,0.5);
 }
 .main-header {
-	height: 85px;
+	margin-top: 22px;
+	margin-bottom: 147px;
 }
 .logo-w {
 	width: 105px;
@@ -57,6 +61,7 @@ body {
 }
 .main-header ul {
 	padding-left: 0;
+	padding-top: 8px;
 }
 .main-header li {
 	display: inline;
@@ -92,4 +97,249 @@ body {
 	color: #22d77e;
 	margin-left: 5px;
 	
+}
+.join-us-btn {
+	padding: 0;
+}
+.join-us-btn a {
+	border-radius: 4px;
+	background-color: #ffdc46;
+	display:block;
+	color: #424242;
+	font-family: AvenirNextCyr-Bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.44;
+	padding: 8px 0 7px;
+	margin-top: 22px;
+}
+.join-us-btn a {
+	text-decoration: none;
+}
+.truy-it {
+	border-radius: 6px;
+	border: solid 2px #01a3ff;
+	padding: 22px 15px 19px;
+	color: #fff;
+}
+.truy-it-title {
+	font-size: 28px;
+	font-family: AvenirNextCyr-Demi;
+}
+.truy-it-descr {
+	font-size: 18px;
+	font-family: "AvenirNextCyr-Medium";
+	line-height: 26px;
+	margin: 20px 0 74px;
+}
+.truy-now {
+	border-radius: 4px;
+	background-color: #01a3ff;
+	color: #fff;
+	display: block;
+	padding: 8px 0 6px;
+	font-family: AvenirNextCyr-Bold;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.truy-now:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.main-title {
+	color: #fff;	
+}
+.main-title h1 {
+	margin-top: 40px;
+	font-size: 60px;
+	font-family: "AvenirNextCyr-Demi";
+}
+.main-description {
+	font-size: 18px;
+}
+.main-tur {
+	background-color: #fafafa;
+	padding: 60px 30px 70px;
+}
+.main-tur-title {
+	font-family: AvenirNextCyr-Demi;
+	font-size: 28px;
+	color: #424242;
+}
+.main-tur-btn {
+	margin-top: 30px;
+}
+.main-tur-btn a {
+	display: block;
+	border-radius: 4px;
+	background-color: #01a3ff;
+	padding: 8px 0 7px;
+	text-align: center;
+	color: #fff;
+}
+.main-tur-date {
+	line-height: 39px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #424242;
+	font-family: AvenirNextCyr-Regular;
+}
+.main-block2 {
+	margin-bottom: 50px;
+}
+.main-block3 {
+	background-color: #000;
+	color: #fff;
+}
+.block3-title {
+	margin: 120px 0 70px;
+	font-size: 60px;
+	font-family: AvenirNextCyr-Demi;
+	text-align: center;
+}
+.pawn, .horse, .queen, .king {
+	border-radius: 8px;
+	border: solid 1px #424242;
+	height: 325px;
+}
+.fs-descr {
+	text-align: center;
+	font-size: 18px;
+	padding: 18px;
+	line-height: 26px;
+}
+.pawn .fs-descr, .queen .fs-descr {
+	padding-top: 30px;
+}
+.horse .fs-descr, .king .fs-descr {
+	padding-top: 211px;
+}
+.horse, .king {
+	margin-top: 100px;
+}
+.pawn {
+	background: url('../img/icons/png/figureA.png') no-repeat center 135px;
+}
+.horse {
+	background: url('../img/icons/png/figureB.png') no-repeat center 35px;
+}
+.queen {
+	background: url('../img/icons/png/figureC.png') no-repeat center 135px;
+}
+.king {
+	background: url('../img/icons/png/figureD.png') no-repeat center 34px;
+}
+.this-is {
+	border-top: 1px solid #424242;
+	margin-top: 160px;
+	padding-top: 51px;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+.this-is div:nth-child(1) {
+	font-size: 28px;
+	line-height: 84px;
+}
+.this-is div:nth-child(2) {
+	background: url('../img/icons/png/childrens.png') no-repeat;
+	padding-left: 100px; 
+	line-height: 84px;
+}
+.this-is div:nth-child(3) {
+	background: url('../img/icons/png/adult.png') no-repeat;
+	padding-left: 100px; 
+	line-height: 84px;
+}
+.this-is div:nth-child(4) {
+	background: url('../img/icons/png/chessguru.png') no-repeat;
+	padding-left: 100px; 
+	line-height: 84px;
+}
+.main-block4 {
+	padding: 120px 0 66px;
+}
+.main-block4-t {
+	font-family: AvenirNextCyr-Demi;
+	font-size: 60px;
+	color: #424242;
+	
+}
+.main-block4-variation {
+	border-bottom: 1px solid #dfdfdf;
+	padding: 0 0 47px;
+	margin-top: 42px;
+}
+.main-block4-variation .col-lg-9 {
+	padding-right: 50px;
+}
+.main-block4-variation:last-child {
+	border-bottom: none;
+}
+.main-block4-title {
+	font-size: 28px;
+	font-family: AvenirNextCyr-Demi;
+}
+.main-block4-descr {
+	font-size: 18px;
+}
+.main-block4-time {
+	font-size: 13px;
+}
+.main-block4-price {
+	font-family: AvenirNextCyr-Demi;
+	font-size: 28px;
+	margin-bottom: 25px;	
+}
+.var1 {
+	padding-left: 170px;
+	background: url('../img/icons/png/personal.png') no-repeat;
+}
+.var2 {
+	padding-left: 170px;
+	background: url('../img/icons/png/house.png') no-repeat;
+}
+.var3 {
+	padding-left: 170px;
+	background: url('../img/icons/png/skype.png') no-repeat;
+}
+.var4 {
+	padding-left: 170px;
+	background: url('../img/icons/png/individ.png') no-repeat;
+}
+.var5 {
+	padding-left: 170px;
+	background: url('../img/icons/png/intelekt.png') no-repeat;
+}
+.main-block5 {
+	background: url('../img/photos/bg_activate.png') #000 no-repeat;
+	height: 1025px;
+	width: 100%;
+	position: relative;
+}
+#maevsky_hype_container div {
+	background-color: inherit !important;
+	
+}
+.HYPE_element {
+	border: none;
+}
+.main-block6 {
+	padding: 120px 0 140px;
+}
+.main-block6 .col-lg-12 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.main-block6 .col-lg-4 {
+	font-size: 18px;
+	padding: 0 20px;
+}
+.reviews {
+	margin-top: 20px;
+}
+.reviews span {
+	font-family: "AvenirNextCyr-Bold";
+	padding-left: 5px;
 }
