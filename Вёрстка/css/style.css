@@ -41,7 +41,6 @@ body {
 .main-block1 {
 	background: url('../img/photos/bgHero@2x.jpg') no-repeat;
 	padding-bottom: 158px;
-	margin-bottom: 50px;
 }
 .main-top:before {
 	content: "";
@@ -96,7 +95,23 @@ body {
 	content:"●";
 	color: #22d77e;
 	margin-left: 5px;
-	
+}
+.viber-b, .whatsapp-b {
+	font-size: 10px;
+	font-family: "AvenirNextCyr-Medium";
+	position: relative;
+	display: inline;
+	top: -2px;
+    left: 7px;
+}
+.viber-b:before {
+	content:"●";
+	color: #b567ff;
+}
+.whatsapp-b:before {
+	content:"●";
+	color: #22d77e;
+	margin-left: 5px;
 }
 .join-us-btn {
 	padding: 0;
@@ -112,9 +127,10 @@ body {
 	line-height: 1.44;
 	padding: 8px 0 7px;
 	margin-top: 22px;
-}
-.join-us-btn a {
 	text-decoration: none;
+}
+.join-us-btn a:hover {
+	background-color: #ffd41d;
 }
 .truy-it {
 	border-radius: 6px;
@@ -134,10 +150,11 @@ body {
 }
 .truy-now {
 	border-radius: 4px;
+	border: 1px solid #01a3ff;
 	background-color: #01a3ff;
 	color: #fff;
 	display: block;
-	padding: 8px 0 6px;
+	padding: 7px 0 5px;
 	font-family: AvenirNextCyr-Bold;
 	font-size: 18px;
 	font-weight: bold;
@@ -145,7 +162,8 @@ body {
 }
 .truy-now:hover {
 	text-decoration: none;
-	color: #fff;
+	color: #01a3ff;
+	background-color: inherit;
 }
 .main-title {
 	color: #fff;	
@@ -173,11 +191,18 @@ body {
 .main-tur-btn a {
 	display: block;
 	border-radius: 4px;
+	border: 1px solid #01a3ff;
 	background-color: #01a3ff;
-	padding: 8px 0 7px;
+	padding: 7px 0 6px;
 	text-align: center;
 	color: #fff;
 }
+.main-tur-btn a:hover {
+	background-color: inherit;
+	text-decoration: none;
+	color: #01a3ff;
+}
+
 .main-tur-date {
 	line-height: 39px;
 	text-transform: uppercase;
@@ -186,7 +211,8 @@ body {
 	font-family: AvenirNextCyr-Regular;
 }
 .main-block2 {
-	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .main-block3 {
 	background-color: #000;
@@ -257,7 +283,8 @@ body {
 	line-height: 84px;
 }
 .main-block4 {
-	padding: 120px 0 66px;
+	padding-top: 120px;
+	padding-bottom: 60px;
 }
 .main-block4-t {
 	font-family: AvenirNextCyr-Demi;
@@ -267,7 +294,7 @@ body {
 }
 .main-block4-variation {
 	border-bottom: 1px solid #dfdfdf;
-	padding: 0 0 47px;
+	padding-bottom: 47px;
 	margin-top: 42px;
 }
 .main-block4-variation .col-lg-9 {
@@ -325,7 +352,8 @@ body {
 	border: none;
 }
 .main-block6 {
-	padding: 120px 0 140px;
+	padding-top: 120px;
+	padding-bottom: 140px;
 }
 .main-block6 .col-lg-12 {
 	font-size: 60px;
@@ -343,3 +371,318 @@ body {
 	font-family: "AvenirNextCyr-Bold";
 	padding-left: 5px;
 }
+footer {	
+	height: 113px;
+	background-color: #fbfbfb;
+	padding: 39px 0;
+}
+.footer-title {
+	font-size: 14px;
+	font-family: "AvenirNextCyr-Regular";
+}
+.phone {
+	font-family: "AvenirNextCyr-Bold";
+	font-size: 14px;
+}
+.footer-btn {
+	padding: 5px 35px;
+	border-radius: 6px;
+	border: solid 1px #01a3ff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #01a3ff;
+	display: block;
+}
+.footer-btn:hover {
+	background-color: #01a3ff;
+	color: #fff;
+	text-decoration: none;
+}
+.vk-ico, .fb-ico {
+	height: 36px;
+	width: 36px;
+	overflow: hidden;
+	display: inline-block;
+}
+.vk-ico {
+	background: url('../img/icons/png/social.png') no-repeat;
+}
+.vk-ico:hover {
+	background: url('../img/icons/png/socialH.png') no-repeat;
+}
+.fb-ico {
+	background: url('../img/icons/png/social.png') no-repeat -46px;
+}
+.fb-ico:hover {
+	background: url('../img/icons/png/socialH.png') no-repeat -46px;
+}
+.lang {
+	border-radius: 4px;
+	border: solid 1px #01a3ff;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	top: 1px;
+	margin-left: 30px;
+}
+.ru, .eng {
+	padding: 9px 32px;
+	font-family: "AvenirNextCyr-Bold";
+	line-height: 36px;
+	color: #01a3ff;
+}
+.ru:hover, .eng:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #01a3ff;
+}
+.active-lang {
+	background-color: #01a3ff;
+	color: #fff;
+}
+.active-lang:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.main-block5 {
+	display: none;
+}
+.mobi-jub {
+	display: none;
+}
+/* div {border: 1px solid #c00;} */
+@media (max-width: 1200px) {
+	.viber, .whatsapp {
+		display: inline-block;
+		float: inherit;
+		left: 15px;
+		top: -3px;
+	}
+	.phone-col {
+		line-height: 35px;
+	}
+	.join-us-btn {
+		padding-top: 4px;
+	}
+	.main-header {
+		margin-top:10px;
+	}
+	.main-title h1 {
+		font-size: 40px;
+	}
+	.main-block2 {
+		max-width: none;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		background-color: #fafafa;
+	}
+
+}
+@media (max-width: 992px) {
+	.horse {
+	margin-top: 0;
+	}
+	.king, .queen {
+		margin-top: 30px;
+	}
+	.main-block4-t {
+		font-size: 42px;
+	}
+	.main-block4 {
+		padding-top: 70px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.var1, .var2, .var3, .var4, .var5 {
+		background: none;
+		padding-left: 15px;
+	}
+	.main-block4-variation .col-lg-9 {
+		padding-right: 15px;
+	}
+	.main-block4-variation .col-md-3 {
+		padding-left: 0;
+	}
+	.main-block5 {
+	display: block;
+	position: relative;
+	background-position: -120px;
+	}
+	.mb5 {
+		position: absolute;
+		top:180px;
+		right: 150px;
+	}
+	.mb5 div {
+		margin-bottom: 40px;
+	}
+	.mb5 div:nth-child(1) {
+		font-size: 42px;
+		color: #fff;
+		position: relative;
+		top: 20px;
+		left: 28px;
+	}
+	.mb5 div:nth-child(2) {
+		width: 273px;
+		height: 92px;
+		border-radius: 25px;
+		border: solid 2px #2180d4;
+		font-size: 36px;
+		color: #2180d4;
+		font-family: "AvenirNextCyr-Regular";
+		text-align: center;
+		line-height: 92px;
+	}
+	.mb5 div:nth-child(3) {
+		width: 273px;
+		height: 92px;
+		border-radius: 25px;
+		border: solid 2px #e15aff;
+		font-size: 36px;
+		color: #e15aff;
+		font-family: "AvenirNextCyr-Regular";
+		text-align: center;
+		line-height: 92px;
+	}
+	.mb5 div:nth-child(4) {
+		width: 273px;
+		height: 92px;
+		border-radius: 25px;
+		border: solid 2px #7ed321;
+		font-size: 36px;
+		color: #7ed321;
+		font-family: "AvenirNextCyr-Regular";
+		text-align: center;
+		line-height: 92px;
+	}
+	.vk-ico, .fb-ico {
+		display: none;
+	}
+	.footer-btn, .f-btn-wr {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.main-block1 {
+		padding-bottom:93px;
+	}
+	.main-header {
+		margin-bottom: 88px;
+	}
+	.main-block2 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.block3-title {
+		margin-top: 70px;
+		font-size: 42px;
+		margin-bottom: 50px;
+	}
+	.this-is {
+		margin-top: 80px;
+		padding-top: 40px;
+	}
+	.main-block5 {
+		height: 800px;
+	}
+	.main-block6 {
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
+	.main-block6 .col-lg-12 {
+		margin-bottom: 50px;
+		font-size: 42px;
+	}
+}
+@media (max-width: 768px) {
+	.hidden-sm {
+		display: none;
+	}
+	.main-header {
+		margin: 0;
+	}
+	.main-header hr {
+		background-color: #f1f1f1;
+		opacity: 0.29;
+		margin-bottom: 0;
+	}
+	.mobi-jub {
+		display: block;
+	}
+	.join-us-btn a {
+		margin-top: 0;
+	}
+	.mobi-fix {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.phone-col {
+		position: relative;
+	}
+	.viber, .whatsapp {
+		position: absolute;
+		top: 16px;
+	}
+	.viber {
+		left: 83px;
+	}
+	.whatsapp {
+		left: 115px;
+	}
+	.mobi-border {
+		border-top: 1px solid #f1f1f1;
+	}
+	.mobi-block1 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: #39475b;
+		color: #fff;
+	}
+	.truy-it-descr {
+		margin: 8px 0 29px;
+	}
+	.truy-now {
+		width: 230px;
+		margin: 0 auto;
+	}
+	.this-is div:nth-child(2), .this-is div:nth-child(3), .this-is div:nth-child(4)  {
+		padding-top: 65px;
+		text-align: center;
+		padding-left: 15px;
+		background-position: top center;
+	}
+	.this-is {
+		margin-bottom: 0;
+	}
+	.main-block4-variation .col-md-3 {
+		padding-left: 15px;
+		margin-top: 20px;
+	}
+	.main-block4-variation {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	 .text-review {
+		float: left;
+		width: 70%;
+		margin-bottom: 50px;
+	 }
+	.reviews {
+		text-align: center;
+		margin-top: 0;
+	}
+	.reviews img {
+		 display: block;
+		 margin: 0 auto;
+	 }
+	.reviews span {
+		padding-left: 15px;
+		display: block;
+
+	}
+}
+
